@@ -71,7 +71,7 @@ const sr=ScrollReveal({
 })
 
 sr.reveal(`.profile, .contact__form`)
-sr.reveal(`.info`,{origin:'left',delay:800})
-sr.reveal(`.skills`,{origin:'left',delay:1000})
-sr.reveal(`.about`,{origin:'right',delay:1200})
-sr.reveal(`.project__card, .services__card, .experience__card`,{interval:1000})
+sr.reveal(`.info`,{origin:'left',delay:500})
+sr.reveal(`.skills`,{origin:'left',delay:600})
+sr.reveal(`.about`,{origin:'right',delay:800})
+sr.reveal(`.project__card, .services__card, .experience__card`,{interval:500})
