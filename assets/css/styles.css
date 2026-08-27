@@ -34,7 +34,7 @@
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Montserrat Alternates", sans-serif;
   --second-font: "Grechen Fuemen", cursive;
-  --biggest-font-size: 2.5rem;
+  --biggest-font-size: 2.05rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -55,7 +55,7 @@
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1168px) {
   :root {
-    --biggest-font-size: 3.5rem;
+    --biggest-font-size: 3.05rem;
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
@@ -200,7 +200,7 @@ img {
 .profile__img{
   /* width: 350px; */
   /* filter:brightness(.91); */
-  transform: scale(1.05);
+  transform: scale(0.85);
   object-fit: contain;
   position: absolute;
   justify-self: center;
@@ -208,6 +208,7 @@ img {
 }
 
 .profile__data{
+  justify-self: flex-end;
   align-self: flex-end;
   background-color: hsla(0,0%,1%,.1);
   backdrop-filter: blur(16px);
